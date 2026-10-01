@@ -21,5 +21,21 @@ jobs:
           java-version: '17'
           cache: maven
 
+      - name: Set up Google Chrome (Headless Execution)
+        uses: browser-actions/setup-chrome@v1
+
       - name: Run Maven tests
-        run: mvn -B test
+        run: mvn -B test -Dheadless=true
+        env:
+          PARA_USERNAME: ${{ secrets.PARA_USERNAME }}
+          PARA_PASSWORD: ${{ secrets.PARA_PASSWORD }}
+
+      - name: Upload Test Reports Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-execution-reports
+          path: |
+            target/surefire-reports/
+            target/extent-reports/
+          retention-days: 14
