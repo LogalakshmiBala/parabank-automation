@@ -1,0 +1,4 @@
+com/bank/tests/BaseTest.class
+com/bank/tests/LoginTest.class
+com/bank/tests/FundTransferTest.class
+com/bank/tests/APIBankingTest.class

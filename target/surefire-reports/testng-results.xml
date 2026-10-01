@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-02T02:41:35 IST" name="ParaBank QA Automation Suite" finished-at="2026-10-02T02:41:38 IST" duration-ms="3039">
+    <groups>
+    </groups>
+    <test started-at="2026-10-02T02:41:35 IST" name="Smoke Tests" finished-at="2026-10-02T02:41:38 IST" duration-ms="3039">
+      <class name="com.bank.tests.APIBankingTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8]" started-at="2026-10-02T02:41:35 IST" name="setUpSuite" finished-at="2026-10-02T02:41:35 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8]" started-at="2026-10-02T02:41:35 IST" name="setUpMethod" finished-at="2026-10-02T02:41:35 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bank.tests.APIBankingTest.customerCanFetchAccountsAndTransferFunds() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="customerCanFetchAccountsAndTransferFunds()[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8]" started-at="2026-10-02T02:41:35 IST" name="customerCanFetchAccountsAndTransferFunds" finished-at="2026-10-02T02:41:38 IST" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCanFetchAccountsAndTransferFunds -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8]" started-at="2026-10-02T02:41:38 IST" name="tearDownMethod" finished-at="2026-10-02T02:41:38 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerCanFetchAccountsAndTransferFunds status=SUCCESS method=APIBankingTest.customerCanFetchAccountsAndTransferFunds()[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.bank.tests.APIBankingTest@769e7ee8]" started-at="2026-10-02T02:41:38 IST" name="tearDownSuite" finished-at="2026-10-02T02:41:38 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.bank.tests.APIBankingTest -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- ParaBank QA Automation Suite -->
+</testng-results>

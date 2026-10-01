@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ParaBank auth response",
+  "type": "object",
+  "properties": {
+    "sessionId": { "type": "string" },
+    "customerId": { "type": "integer" },
+    "authenticated": { "type": "boolean" }
+  },
+  "required": ["sessionId", "customerId", "authenticated"],
+  "additionalProperties": true
+}

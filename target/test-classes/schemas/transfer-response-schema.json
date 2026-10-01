@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ParaBank accounts response",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "customerId", "type", "balance"],
+    "properties": {
+      "id": { "type": "integer" },
+      "customerId": { "type": "integer" },
+      "type": { "type": "string" },
+      "balance": { "type": "number" }
+    },
+    "additionalProperties": true
+  }
+}
